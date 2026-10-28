@@ -67,11 +67,12 @@ public class StudiKasus4 {
 
                 if (dokumen == 4) {
                     System.out.println();
-                    System.out.println("Nama mahasiswa: " + nama);
-                    System.out.println("Status dana: Berhak");
-                    System.out.println("Alasan: PKM lolos pendanaan "
-                            + "dan dokumen lengkap.");
-                } else {
+                    System.out.println("Status Pengajuan: BERHASIL");
+                    System.out.println("Nama Mahasiswa: " + nama);
+                    System.out.println("Hasil Validasi: Memenuhi syarat");
+                    System.out.println("Keterangan: Mahasiswa meraih Juara " + " dan semua dokumen sudah lengkap.");
+                } 
+                else {
                     kurang = 4 - dokumen;
 
                     System.out.println();
